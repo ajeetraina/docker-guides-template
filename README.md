@@ -26,3 +26,35 @@ If you have any questions, please contact `#docs` on the [Docker Community Slack
 
 3. Select **Create repository**. Don't forget to populate **About** section with a short description of the project once you create the repository.
 
+
+## Sample Docker Guides Content
+
+## Introduction
+
+## What is this guide all about?
+
+
+## Prerequisite
+
+
+## Launching app
+
+- How to start app 
+
+
+
+## Connecting to app from a non-containerised app
+
+- Architecture diagram
+
+
+## Connecting to app from a containerised app
+
+- Architecture diagram
+
+## Connecting to app from both containers and native apps
+
+- Architecture diagram
+
+## Recap
+
