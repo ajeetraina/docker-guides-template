@@ -1,11 +1,11 @@
-## 🎯 Samples Templates for Docker Guides 
+## 🎯 A Template for Sample Docker Guides 
 
 This page outlines the requirements for Docker User Guides. This repository is meant to support Docker guides only. 
 If you have any questions, please contact `#docs` on the [Docker Community Slack](https://communityinviter.com/apps/dockercommunity/docker-community)
 
 >  [!TIP]
 >
-> Please remove this "Samples Repo Templates for Docker Guides" section from the README file after cloning the repository to ensure your guide is clean and tailored to your specific application.
+> Please remove this "A Template for Sample Docker Guides" section from the README file after cloning the repository to ensure your guide is clean and tailored to your specific application.
 
 
 
