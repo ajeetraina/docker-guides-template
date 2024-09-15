@@ -113,7 +113,29 @@ If applicable, explain how to modify the configuration to support containerized 
 
 ## Diagrams and Visuals
 
-Where necessary, include diagrams or visuals to aid comprehension. For example, a diagram explaining Kafka listeners and how they work in both host and Docker connections can be added.
+Where necessary, include diagrams or visuals to aid comprehension. For example, a Mermaid diagram that represents the flow between the React frontend, Node.js backend, LocalStack, and MongoDB within the local system.
+
+> [!TIP]
+> For visualizing complex concepts, you are encouraged to use **Mermaid** for diagrams. 
+>   Mermaid is supported in GitHub and can help you create flowcharts, sequence diagrams, Gantt charts, and more.
+>
+
+```mermaid
+graph TD;
+    subgraph Local_System
+        React[React frontend] --> Node[Node.js backend]
+        Node -->|Images| LocalStack[LocalStack]
+        Node -->|Text| Mongo[Mongo]
+    end
+    
+    subgraph AWS_Cloud
+        S3[S3]
+        MongoAtlas[Mongo Atlas] --> MongoDatabase[Mongo database]
+    end
+    
+    LocalStack -.-> S3
+    Mongo -.-> MongoDatabase
+```
 
 
 ## Adding Visualizers or Debugging Tools
