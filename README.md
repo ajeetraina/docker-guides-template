@@ -1,6 +1,22 @@
 ## 🎯 A Template for Sample Docker Guides 
 
 
+1. [Introduction](#introduction)
+2. [Title of the Guide](#title-of-the-guide)
+3. [Learning Objectives](#learning-objectives)
+4. [Prerequisites](#prerequisites)
+5. [Step-by-Step Instructions](#step-by-step-instructions)
+   - [Launching Kafka](#launching-kafka)
+   - [Connecting Non-Containerized App to Kafka](#connecting-non-containerized-app-to-kafka)
+   - [Additional Setup for Containers](#additional-setup-for-containers)
+6. [Diagrams and Visuals](#diagrams-and-visuals)
+7. [Adding Visualizers or Debugging Tools](#adding-visualizers-or-debugging-tools)
+8. [Testing and Validation](#testing-and-validation)
+9. [Recap](#recap)
+
+---
+
+
 This page outlines the requirements for writing Docker User Guides. This repository is meant to support Docker guides only. 
 If you have any questions, please contact `#docs` on the [Docker Community Slack](https://communityinviter.com/apps/dockercommunity/docker-community)
 
