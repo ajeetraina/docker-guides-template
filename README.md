@@ -33,7 +33,7 @@ If you have any questions, please contact `#docs` on the [Docker Community Slack
 Your title should clearly state the main focus of the guide and the technology being used. Keep it concise and informative.
 
 > [!TIP]
-> - Developing event-driven applications with Kafka and Docker
+> - [Developing event-driven applications with Kafka and Docker](https://docs.docker.com/guides/use-case/kafka/)
 > - Develop and test AWS Cloud applications using LocalStack and Docker
 
 ## Introduction
@@ -60,8 +60,8 @@ Outline what users will learn by following your guide. Break this down into spec
 List the prerequisites required to follow along with the guide. Be specific about any tools, software versions, and technical knowledge that the user must have before starting.
 
 > [!TIP]
-> - Docker Desktop
-> - Node.js and Yarn
+> - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+> - [Node.js](https://nodejs.org/en/download/package-manager) and [Yarn](https://yarnpkg.com/)
 > - Basic knowledge of Kafka and Docker
 
 ## Step-by-Step Instructions
