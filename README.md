@@ -55,7 +55,7 @@ Outline what users will learn by following your guide. Break this down into spec
 > - Connect a containerized app to the cluster
 > - Deploy Kafka-UI to help with troubleshooting and debugging
 
-## Prerequisite
+## [Prerequisite](https://docs.docker.com/guides/use-case/kafka/#prerequisites)
 
 List the prerequisites required to follow along with the guide. Be specific about any tools, software versions, and technical knowledge that the user must have before starting.
 
@@ -69,7 +69,7 @@ List the prerequisites required to follow along with the guide. Be specific abou
 The main part of the guide should be clear, concise, and broken into manageable steps. Each step should include the necessary code, command-line instructions, and context to ensure that users can follow along without confusion.
 
 > [!TIP]
-> Example Section - Launching Kafka
+> [Example Section - Launching Kafka](https://docs.docker.com/guides/use-case/kafka/#launching-kafka)
 > 
 > Starting with Kafka 3.3, setting up Kafka for local development has been simplified due to KRaft mode. This section will guide you through launching a Kafka cluster using Docker.
 
