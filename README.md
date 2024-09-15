@@ -68,13 +68,11 @@ List the prerequisites required to follow along with the guide. Be specific abou
 
 The main part of the guide should be clear, concise, and broken into manageable steps. Each step should include the necessary code, command-line instructions, and context to ensure that users can follow along without confusion.
 
-### Example Section - Launching Kafka
+> [!TIP]
+> Example Section - Launching Kafka
+> 
+> Starting with Kafka 3.3, setting up Kafka for local development has been simplified due to KRaft mode. This section will guide you through launching a Kafka cluster using Docker.
 
-Starting with Kafka 3.3, setting up Kafka for local development has been simplified due to KRaft mode. This section will guide you through launching a Kafka cluster using Docker.
-
-## Connecting a Non-Containerized App to Kafka
-
-Provide clear instructions for how to connect a non-containerized app to Kafka, including any relevant code examples.
 
 > [!TIP]
 > 1. Clone the GitHub repository:
@@ -82,7 +80,6 @@ Provide clear instructions for how to connect a non-containerized app to Kafka, 
 > ```
 > git clone https://github.com/dockersamples/kafka-development-node.git
 > ```
-
 > 2. Install dependencies:
 > 
 > ```
@@ -95,7 +92,7 @@ Provide clear instructions for how to connect a non-containerized app to Kafka, 
 > yarn dev
 > ```
 
-## Additional Setup for Containers
+### Additional Setup for Containers
 
 
 Where necessary, include diagrams or visuals to aid comprehension. For example, a diagram explaining Kafka listeners and how they work in both host and Docker connections can be added.
@@ -129,7 +126,7 @@ For troubleshooting or monitoring, show how to add additional services like Kafk
 
 ## Testing and Validation
 
- > [!TIP]
+   > [!TIP]
    > To test that messages are being successfully published and consumed:
    > ### Open a Kafka console producer:
    > ```
