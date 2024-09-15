@@ -128,11 +128,11 @@ For troubleshooting or monitoring, show how to add additional services like Kafk
 
    > [!TIP]
    > To test that messages are being successfully published and consumed:
-   > ### Open a Kafka console producer:
+   >  Open a Kafka console producer:
    > ```
    > docker exec -ti kafka /opt/kafka/bin/kafka-console-producer.sh --bootstrap-server :9092 --topic demo
    >  ```
-   > ### Send a message:
+   > Send a message:
    > ```
    > Test message
    >```
