@@ -1,4 +1,4 @@
-## 🎯 A Template for Sample Docker Guides 
+## 🎯 A Template for writing a sample Docker Guides 
 
 
 1. [Introduction](#introduction)
