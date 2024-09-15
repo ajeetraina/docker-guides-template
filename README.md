@@ -33,7 +33,7 @@ If you have any questions, please contact `#docs` on the [Docker Community Slack
 Your title should clearly state the main focus of the guide and the technology being used. Keep it concise and informative.
 
 > [!TIP]
-> - [Developing event-driven applications with Kafka and Docker](https://docs.docker.com/guides/use-case/kafka/)
+> - Developing event-driven applications with Kafka and Docker- [Link](https://docs.docker.com/guides/use-case/kafka/)
 > - Develop and test AWS Cloud applications using LocalStack and Docker
 
 ## Introduction
